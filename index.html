@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+      <link rel="index.css">
+      <title>Conner and Tal's fun website</title>
+    </head>
+      <body>
+
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Epicodus</a>
+            </div>
+
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Conner <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Tal</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FunFunFun <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">hello</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">About Us</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Have a Question? <span      class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+          <body style= "padding: 10px;">
+            <div class="jumbotron">
+              <div class="container">
+                <div class="row well well-lg">
+            <h1>Conner and Tal Rock <small>Follow us on twitter</small></h1>
+              <p><a class="btn btn-primary btn-lg" href="https://twitter.com/CodingConner" role="button">Learn More</a></p></a>
+                </div>
+              </div>
+            </div>
+          </body>
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+          <meta charset="UTF-8">
+          <title>Activate Bootstrap 3 Carousel via Data Attributes</title>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+          <style type="text/css">
+          .carousel{
+              background: #2f4357;
+              margin-top: 20px;
+          }
+          .carousel .item img{
+              margin: 0 auto; /* Align slide image horizontally center */
+          }
+          .bs-example{
+          	margin: 20px;
+          }
+          </style>
+          </head>
+          <body>
+          <div class="bs-example">
+              <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+              	<!-- Carousel indicators -->
+                  <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+                  <!-- Wrapper for carousel items -->
+                  <div class="carousel-inner">
+                      <div class="active item">
+                          <img src="http://www.androidpolice.com/wp-content/uploads/2013/07/nexusae0_Facebook-Thumb.png" alt="First Slide">
+                   		<div class="carousel-caption">
+                            <h3>Conner</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                          </div>
+                      </div>
+                      <div class="item">
+                          <img src="http://www.acapto.com/wp-content/uploads/2013/12/Twitter_BlueBird_Logo-500x500.jpg" alt="Second Slide">
+                          <div class="carousel-caption">
+                            <h3>Tal</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                          </div>
+                      </div>
+                      <div class="item">
+                          <img src="http://www.techspot.com/images2/downloads/topdownload/2014/06/Instagram.png" alt="Third Slide">
+                          <div class="carousel-caption">
+                            <h3>Cool</h3>
+                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Carousel controls -->
+                  <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+              </div>
+          </div>
+          </body>
+          </html>
+
+
+  </html>
